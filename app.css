@@ -45,13 +45,13 @@ html,
 body {
     height: vh;
     display: grid;
-    place-items: flex-start;
+    place-items: center;
     font-family: var(--font-family);
     background-color: var(--bg-body);
 }
 
 .calendar {
-    height: 50;
+    height:50;
     width: 50;
     background-color: var(--bg-main);
     border-radius: 30px;
@@ -69,18 +69,18 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    font-size: 25px;
+    font-size: 15px;
     font-weight: 600;
     color: var(--color-txt);
-    padding: 10px;
+    padding: 1px;
 }
 
 .calendar-body {
-    padding: 10px;
+    padding: 1px;
 }
 
 .calendar-week-day {
-    height: 50px;
+    height: 5px;
     display: grid;
     grid-template-columns: repeat(7, 1fr);
     font-weight: 600;
@@ -100,12 +100,12 @@ body {
 }
 
 .calendar-days div {
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 5px;
+    padding: 2px;
     position: relative;
     cursor: pointer;
     animation: to-top 1s forwards;

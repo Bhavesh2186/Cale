@@ -51,8 +51,8 @@ body {
 }
 
 .calendar {
-    height: 100;
-    width: 60;
+    height: 50;
+    width: 50;
     background-color: var(--bg-main);
     border-radius: 30px;
     padding: 20px;

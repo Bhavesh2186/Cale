@@ -43,9 +43,9 @@
 
 html,
 body {
-    height: 100vh;
+    height: vh;
     display: grid;
-    place-items: center;
+    place-items: flex-start;
     font-family: var(--font-family);
     background-color: var(--bg-body);
 }
